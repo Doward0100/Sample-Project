@@ -36,7 +36,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton14 = new javax.swing.JButton();
         jButton15 = new javax.swing.JButton();
         OK = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -160,7 +160,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 318, 205, -1));
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 318, 120, -1));
 
         OK.setText("OK");
         OK.addActionListener(new java.awt.event.ActionListener() {
@@ -168,10 +168,10 @@ public class NewJFrame extends javax.swing.JFrame {
                 OKActionPerformed(evt);
             }
         });
-        getContentPane().add(OK, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 320, -1, -1));
+        getContentPane().add(OK, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 320, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sherly Caparas\\Downloads\\calcal.jpg")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 400));
+        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 410));
 
         pack();
         setLocationRelativeTo(null);
@@ -351,6 +351,6 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
